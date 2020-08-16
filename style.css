@@ -1,0 +1,27 @@
+main {
+    flex: 1 0 auto;
+}
+
+body {
+    background: url(./images/clouds.jpg);
+    background-size: cover;
+
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    margin: 20px, 0;
+}
+
+.divider {
+    font-size: 1rem;
+}
+
+.navbody {
+    font-size: 1.5rem;
+}
